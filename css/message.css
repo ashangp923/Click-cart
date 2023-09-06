@@ -1,0 +1,126 @@
+#name button{
+    background-color:orange;
+    border-radius: 5px;
+    height:30px;
+    width: 100px;
+    outline: none;
+    border: none;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+#name button:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+#newMessage {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#newMessage input {
+  width: 100%;
+  margin: 2px 0 2px 0;
+}
+
+#newMessage textarea{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#newMessage button {
+  background-color: orange;
+  width: 48%;
+  height: 30px;
+  outline: none;
+  border: none;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#newMessage button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+body {
+    font-family: Arial;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 89%;
+    background: #f1f1f1;
+    outline: none;
+    margin-bottom: 5px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  p.groove {
+    border-style: groove;
+  }
+  p.groove1 {
+    border-style: groove;
+    margin:auto;
+    max-width:200px;
+  }
+
+  .heading {
+    text-align: center;
+    border: 1px solid grey;
+    margin: 5px 0 5px 0;
+    
+  }
+
+  .detail {
+    text-align: center; 
+    margin: 5px 0 5px 0;  
+  }
+
+section {
+  width: 100%;
+}
+
+ /* reference: W3School */

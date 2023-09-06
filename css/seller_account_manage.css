@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 20px;
+}
+
+h2{
+    padding: 10px;
+}
+
+.main-section {
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row{
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.row-personal-info{
+    border: solid black 1px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    width: 75%;
+    margin: 10px;
+}
+
+.personal-info-form{
+    margin: 10px;
+}
+
+form#userinfo{
+    margin: 10px;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+input{
+    width: 100%;
+    border: solid #ddd 1px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#passCheck{
+    width: auto;
+}
+
+.delete-btn{
+    font-size: 15px; 
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+.btn{
+    width: 75px;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #04AA6D;
+}
+
+.account-delete{
+    background-color: rgb(220, 73, 73);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

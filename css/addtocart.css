@@ -1,0 +1,135 @@
+* {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    color: #444444;
+    min-height: 100vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e99f4c;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-container{
+    width: 58%;
+}
+.right-container{
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    width: 38%;
+    padding: 10px;
+    max-height: 200px;
+}
+.action-header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+}
+.cart-item{
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    max-width: 150px;
+}
+.image img{
+    width: 100%;
+}
+.qty-selector{
+    flex: 1;
+    text-align: right;
+}
+.title{
+    padding: 10px;
+    flex: 1;
+    text-align: left;
+}
+
+.value{
+    padding: 10px;
+    flex: 1;
+    text-align: right;
+}
+.order-details{
+    display: flex;
+}
+.checkout-button{
+    border: none;
+    background-color: orange;
+    padding: 8px 200px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.checkout-button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.btn {
+    border: none;
+    background-color: orange;
+    padding: 8px 2px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 2px;
+    text-decoration: none;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.inputQ{
+    font-size: 1em;
+    width: 100px;
+    margin: 2px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+.qnti {
+    outline:none;
+    border: none; 
+    text-align: right; 
+    margin-left: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+}

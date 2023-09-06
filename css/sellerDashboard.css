@@ -1,0 +1,485 @@
+* {
+    box-sizing: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+    color: #444444;
+    min-height: 100vh;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e99f4c;
+}
+
+.container {
+    padding: 20px;
+}
+
+#seller_header {
+    background-color: #fff;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    line-height: 1;
+}
+
+.seller_nav {
+    width: 100%;
+
+}
+
+.seller_nav ul {
+    float: right;
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+.seller_nav .li {
+    margin-right: 20px;
+    font-size: 18px;
+    display: inline;
+    
+}
+
+.li-dropdown {
+    color: black;
+    font-size: 18px;
+    display: inline;
+}
+
+.li-dropdown:hover .child-ul{
+    display: block;
+    transition-delay: 5s;
+}
+
+.seller_nav .child-ul {
+    width: 200px;
+    border-radius: 5px;
+    list-style: none;
+    display: none;
+    position: fixed;
+    right: 50px;
+    background-color: white; 
+    z-index: 1; 
+    padding: 10px 0px 10px 0px; 
+    margin:0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-delay: 0.5s;
+}
+
+.seller_nav  .logo {
+    position: absolute;
+    padding: 5px;
+}
+.seller_nav  .logo img {
+    margin-left: 20px;
+    width:  80px;
+    height: 40px;
+}
+
+.seller_nav {
+    font-size: 14px;
+    color: white;
+}
+
+.seller_nav {
+    position: relative;
+    right: 0;
+}
+
+
+.main_section {
+    padding: 5px;
+    display: flex;
+    margin-top: 10px;
+    height: auto;
+}
+
+.sideBar {
+    width: 30%;
+    margin-right: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainContent {
+    width: 66.7%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainContent .btn-area {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.mainContent button {
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.mainContent button a {
+    color: #fff;
+}
+
+.mainContent button:hover {
+    background-color: #f1c200;
+}
+
+.checked {
+  color: orange;
+}
+
+.chat table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.chat th, td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.bottomBar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottomCont {
+    width: 30%;
+    height: 200px;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.bottomCont .head {
+    border-bottom: 1px solid gray;
+    margin-bottom: 2px;
+}
+
+.inline {
+    display: inline;
+}
+
+.a_inline_right {
+    display: inline;
+    float: right;
+    color: orange;
+}
+
+.p_right {
+    display: inline;
+    float: right;
+}
+
+.border_bottom {
+    border-bottom: 1px solid gray;
+}
+
+.mainProduct {
+    display:flex; 
+    flex-wrap: wrap;
+    height: auto;
+}
+.sProduct {
+    width: 150px;
+    height: 230px;
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.sProduct:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sProductCont {
+    display: inline-block; 
+    text-align: right;
+    overflow: hidden; 
+    width: 100%; 
+    cursor: pointer;
+}
+
+.sProduct img {
+    width: 100%;
+    height: 150px;
+}
+
+.sProduct p  {
+    float: left;
+}
+
+.avatar_s {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.avatar_s img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+hr {
+    margin: 10px 0 10px 0px;
+
+}
+
+.clickBtn{
+    display: none;
+}
+
+
+.sProduct .clickBtnshow   {
+    width: 130px;
+    display: block;
+    position:absolute; 
+    background-color: white; 
+    z-index: 999; 
+    padding: 10px; 
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chats {
+    margin-top: 10%;
+    border: 1px solid gray;
+}
+
+
+.add-product {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      z-index: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-product h2 {
+    margin-bottom: 3px;
+}
+
+.add-product input {
+    width: 100%;
+    margin-top: 5px;
+    height: 25px;
+    outline: none;
+
+}
+
+.add-product textarea {
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+
+}
+.add-product select {
+    width: 100%;
+    outline: none;
+    height: 25px;
+}
+
+.add-product img {
+    width: 100%;
+    height: 300px;
+}
+
+
+.add-product .submit {
+    background-color: orange;
+    color: black;
+    width: 48%;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.add-product .cancel {
+    background-color: black;
+    color: #fff;
+    width: 48%;
+    height: 25px;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+
+#stars {
+    color: orange;
+}
+
+#icon {
+    display: none;
+}
+
+@media only screen and (max-width: 1080px) {
+    .bottomBar {
+        width: 90%;
+        margin: 20px;
+        margin-top: 10px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bottomCont {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #seller_header {
+        width: 100%;
+    }
+    #icon {
+        display: block;
+    }
+
+    .seller_nav  .logo {
+        position: absolute;
+        padding: 5px;
+    }
+    .seller_nav  .logo img {
+        width:  60px;
+        height: auto;
+    }
+
+
+    .seller_nav .li, .li-dropdown {
+        display: none;
+
+    }
+
+    #icon {
+        float: right;
+        right: 0;
+        font-size: 2em;
+        padding: 10px;
+    }
+
+    .seller_nav #ul {
+        display: none;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-color: white;
+        margin-top: 50px;
+        z-index: 1;
+    }
+
+    .seller_nav #li {
+        border-radius: 5px;
+        list-style: none;
+        display: block;
+        right: 5px;
+
+    }
+
+
+    .main_section {
+        width: 90%;
+        padding: 20px;
+        margin: 0;
+        margin-top: 10px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sideBar {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .mainContent {
+        width: 100%;
+        height: auto;
+    }
+    
+    .mainProduct {
+        display:flex; 
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .sProduct {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sProduct img {
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mainProduct {
+        width: 100%;
+    }
+
+    .bottomBar {
+        width: 88%;
+        margin: 20px;
+        margin-top: 10px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bottomCont {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+
+}

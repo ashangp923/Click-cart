@@ -1,0 +1,25 @@
+
+.image{
+    width:100%;
+    height: 300px;
+}
+
+.footer-block-information{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playstore{
+    width: 300px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.appstore{
+    width: 300px;
+    height: 100px;
+}
+
+ /* reference: W3School */
